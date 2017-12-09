@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "http://localhost:1464", "{18968BAB-3D46-4304-A9D3-1B8BA7CDE987}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -34,6 +34,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 WebSite", "2 WebSite", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSiteLibraryTests", "WebSiteLibraryTests\WebSiteLibraryTests.csproj", "{37951529-1BB2-42C6-8FF9-39F59EAFE822}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTests", "WebTests\WebTests.csproj", "{D32F78BB-564B-419D-B2A7-4DC59BE39676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{37951529-1BB2-42C6-8FF9-39F59EAFE822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37951529-1BB2-42C6-8FF9-39F59EAFE822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37951529-1BB2-42C6-8FF9-39F59EAFE822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32F78BB-564B-419D-B2A7-4DC59BE39676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32F78BB-564B-419D-B2A7-4DC59BE39676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32F78BB-564B-419D-B2A7-4DC59BE39676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32F78BB-564B-419D-B2A7-4DC59BE39676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,8 @@ Global
 		{18968BAB-3D46-4304-A9D3-1B8BA7CDE987} = {CAA4DC1A-A551-446B-8781-95EADAB8634E}
 		{5BC9C7D9-EAF4-42C6-8373-9BF475FF704B} = {37EFC937-3ED0-4249-BCA8-32FAB5A1A936}
 		{37951529-1BB2-42C6-8FF9-39F59EAFE822} = {37EFC937-3ED0-4249-BCA8-32FAB5A1A936}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B6F6773-C2F6-419A-BCBF-2733B739DA9D}
 	EndGlobalSection
 EndGlobal
